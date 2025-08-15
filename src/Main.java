@@ -3,44 +3,34 @@
 public class Main {
     public static void main(String[] args) {
 
-//// TIPO NOME = new TIPO ()
-//   Produto prod1 = new Produto();
-//   prod1.nome = "Monitor";
-//   prod1.preco = 850.00;
-//   prod1.marca = "Dell";
-//
-//   prod1.mostrarInformacoes();
-//
-//        Produto prod2 = new Produto();
-//
-//        prod2.nome = "Notebook";
-//        prod2.preco = 3000.00;
-//        prod2.marca = "Dell";
-//
-//        prod2.mostrarInformacoes();
-//
-//
-//        Carro carro1 = new Carro();
-//        carro1.nome = "C3 Live Pack";
-//        carro1.marca = "Citroen";
-//        carro1.cor = "Preto";
-//        carro1.modelo = "SUV";
-//
-//        carro1.mostrarInformacoes();
-//
-//
-//        Carro carro2 = new Carro();
-//        carro2.nome = "Gol";
-//        carro2.marca = "Volkswagen";
-//        carro2.cor = "Prata";
-//        carro2.modelo = "Hatch";
-//
-//        carro2.mostrarInformacoes();
-//
-        Musica minhaMusica = new Musica();
-        minhaMusica.titulo = "Excluse";
-        minhaMusica.artista = "Chris Brown";
-        minhaMusica.segundos = 60;
+// TIPO NOME = new TIPO ()
+   Produto prod1 = new Produto();
+   prod1.nome = "Monitor";
+   prod1.preco = 850.00;
+   prod1.marca = "Dell";
+
+   prod1.mostrarInformacoes();
+
+        Produto prod2 = new Produto();
+
+        prod2.nome = "Notebook";
+        prod2.preco = 3000.00;
+        prod2.marca = "Dell";
+
+        prod2.mostrarInformacoes();
+
+
+        Carro carro1 = new Carro("C3 Live Pack", "Citroen", "Preto", "Hatch", 2025);
+
+        carro1.mostrarInformacoes();
+
+
+        Carro carro2 = new Carro("Gol", "Volkswagen","Prata", "Hatch", 2024);
+        carro2.nome = "nome";
+        carro2.mostrarInformacoes();
+
+        Musica minhaMusica = new Musica("Excluse", "Chris Brown", 60);
+
 
         System.out.println("Tocando agora: " + minhaMusica.titulo);
         System.out.println("Artista: " + minhaMusica.artista);

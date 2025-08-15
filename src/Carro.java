@@ -3,7 +3,16 @@ public class Carro {
     public String marca;
     public String cor;
     public String modelo;
+    public int ano;
 
+
+    public Carro(String nome, String marca, String cor, String modelo, int ano) {
+        this.nome = nome;
+        this.marca = marca;
+        this.cor = cor;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
 
     public void mostrarInformacoes() {
         System.out.println("Nome: " + nome);
