@@ -37,5 +37,16 @@ public class Main {
         System.out.println("Segundos: " + minhaMusica.segundos);
 
 
+        // Instanciando objeto
+        ContaBancaria conta = new ContaBancaria("William", 2000.00 );
+        conta.sacar(500);
+
+        System.out.println("saldo: " + conta.getSaldo());
+
+
+
+
+
+
     }
 }

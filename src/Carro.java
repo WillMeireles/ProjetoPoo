@@ -5,7 +5,7 @@ public class Carro {
     public String modelo;
     public int ano;
 
-
+// Metodo construtor
     public Carro(String nome, String marca, String cor, String modelo, int ano) {
         this.nome = nome;
         this.marca = marca;

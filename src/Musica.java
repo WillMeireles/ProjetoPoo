@@ -3,6 +3,7 @@ public class Musica {
     public String artista;
     public int segundos;
 
+    // Metodo Construtor
     public Musica(String titulo, String artista, int segundos) {
         this.titulo = titulo;
         this.artista = artista;
